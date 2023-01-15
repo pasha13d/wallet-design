@@ -1,0 +1,98 @@
+name: bss
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.5.4
+  font_awesome_flutter: ^10.2.1
+  ubuntu_font_flutter: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  fonts:
+    - family: Ubuntu
+      fonts:
+        - asset: packages/ubuntu_font_flutter/Ubuntu-R.ttf
+        - asset: packages/ubuntu_font_flutter/Ubuntu-RI.ttf
+          style: italic
+        - asset: packages/ubuntu_font_flutter/Ubuntu-B.ttf
+          weight: 700
+        - asset: packages/ubuntu_font_flutter/Ubuntu-BI.ttf
+          weight: 700
+          style: italic
+        - asset: packages/ubuntu_font_flutter/Ubuntu-L.ttf
+          weight: 300
+        - asset: packages/ubuntu_font_flutter/Ubuntu-LI.ttf
+          weight: 300
+          style: italic
+        - asset: packages/ubuntu_font_flutter/Ubuntu-M.ttf
+          weight: 500
+        - asset: packages/ubuntu_font_flutter/Ubuntu-MI.ttf
+          weight: 500
+          style: italic
+    - family: Ubuntu Mono
+      fonts:
+        - asset: packages/ubuntu_font_flutter/UbuntuMono-R.ttf
+        - asset: packages/ubuntu_font_flutter/UbuntuMono-RI.ttf
+          style: italic
+        - asset: packages/ubuntu_font_flutter/UbuntuMono-B.ttf
+          weight: 700
+        - asset: packages/ubuntu_font_flutter/UbuntuMono-BI.ttf
+          weight: 700
+          style: italic
+    - family: Ubuntu Condensed
+      fonts:
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/abc.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
